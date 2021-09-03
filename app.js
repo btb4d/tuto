@@ -10,7 +10,7 @@ db.mongoose.connect(db.url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).
-    then(() => console.log('connexion à mongod réussi !!!'))
+    then(() => console.log('connexion à mongod réussi11 !!!'))
     .catch(() => console.log('connexion à mongod échoué'));
 
 
