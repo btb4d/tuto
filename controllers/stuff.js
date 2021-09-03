@@ -1,4 +1,3 @@
-const mongoose = require('mongoose');
 const Thing = require('../models/thing');
 
 exports.createThing = (req, res, next) => {
